@@ -43,7 +43,7 @@ const Features = () => {
        
       </span>
       <span className="ms-2 block text-sm font-medium text-gray-800 dark:text-white">
-        Step
+        Grow
       </span>
     </div>
     <div className="w-full h-px flex-1 bg-gray-200 group-last:hidden dark:bg-neutral-700"></div>
