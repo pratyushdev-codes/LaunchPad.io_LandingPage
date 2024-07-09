@@ -5,13 +5,13 @@ const Navbar = () => {
     <div>
         
 <header className="sticky top-4 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-50">
-  <nav className="relative max-w-[50rem] w-full bg-neutral-800 rounded-[28px] py-3 ps-5 pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto" aria-label="Global">
+  <nav className="relative max-w-[50rem] w-full rounded-[28px] py-3 ps-5 pe-2 md:flex md:items-center md:justify-between md:py-0 mx-2 lg:mx-auto" aria-label="Global" style={{backgroundColor:"rgb(177 177 177)"}}>
     <div className="flex items-center justify-between">
 
       <a className="flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80" href="" aria-label="Launchpad.io">
-       <img src='../../../public/images/logo.png' style={{height:"60px", width:"70px"}}/> 
+       {/* <img src='../../../public/images/logo.png' style={{height:"60px", width:"70px"}}/>  */}
       </a>
-     &nbsp;  <span style={{color:"#D4D4D4"}}>LaunchPad.io</span>
+     &nbsp;  <span style={{color:"white"}}>LaunchPad.io</span>
       <div className="md:hidden">
         <button type="button" className="hs-collapse-toggle size-8 flex justify-center items-center text-sm font-semibold rounded-full bg-neutral-800 text-white disabled:opacity-50 disabled:pointer-events-none" data-hs-collapse="#navbar-collapse" aria-controls="navbar-collapse" aria-label="Toggle navigation">
           <svg className="hs-collapse-open:hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>

@@ -2,15 +2,15 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div>
+    <div style={{marginLeft:"15%"}}>
         
-<ul className="relative flex flex-row gap-x-2">
+<ul className="relative flex flex-row gap-x-2 ">
  
   <li className="flex items-center gap-x-2 shrink basis-0 flex-1 group">
     <div className="min-w-7 min-h-7 inline-flex justify-center items-center text-xs align-middle">
-      <img className="flex-shrink-0 size-7 rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Image Description" />
+      <img className="flex-shrink-0 size-7 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu655UcnEQPmhflzVrO27Ss3ig3L729qReFfqA4L9VgTO4gBjHaN0Mi5wRDjkgek2g7Zg&usqp=CAU" alt="Image Description" />
       <span className="ms-2 block text-sm font-medium text-gray-800 dark:text-white">
-        Step
+        Sign Up / Login
       </span>
     </div>
     <div className="w-full h-px flex-1 bg-gray-200 group-last:hidden dark:bg-neutral-700"></div>
@@ -27,7 +27,7 @@ const Features = () => {
         </svg>
       </span>
       <span className="ms-2 block text-sm font-medium text-gray-800 dark:text-white">
-        Step
+        Enter your details
       </span>
     </div>
     <div className="w-full h-px flex-1 bg-gray-200 group-last:hidden dark:bg-neutral-700"></div>
@@ -38,9 +38,9 @@ const Features = () => {
   <li className="flex items-center gap-x-2 shrink basis-0 flex-1 group">
     <div className="min-w-7 min-h-7 inline-flex justify-center items-center text-xs align-middle">
       <span className="size-7 flex justify-center items-center flex-shrink-0 bg-white border border-gray-200 font-medium text-gray-800 rounded-full dark:bg-neutral-900 dark:border-neutral-700 dark:text-white">
-        <span className="animate-spin inline-block size-4 border-[3px] border-current border-t-transparent text-blue-600 rounded-full dark:text-blue-500" role="status" aria-label="loading">
+      <img src="https://i.pinimg.com/originals/65/c4/f4/65c4f452571be1261e9c623f7da488ac.gif"/>
           <span className="sr-only">Loading...</span>
-        </span>
+       
       </span>
       <span className="ms-2 block text-sm font-medium text-gray-800 dark:text-white">
         Step

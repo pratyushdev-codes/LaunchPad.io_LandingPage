@@ -16,9 +16,13 @@ function App() {
   return (
     <>
     <Navbar/>
+    <Hero/>
+
+
+    <Features/>
+  
     <MainHeader/>
- <Hero/>
-<Features/>
+
 <AnimatedListDemo/>
 <Header/>
 
